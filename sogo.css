@@ -1,0 +1,527 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a,p{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #000;
+}
+.hover-style:hover{
+    background: #ffca08;
+    border: solid #ffca08;
+    color: #fff;
+    border-radius: 5px;
+}
+.hover-style{
+    border-width: 1px;
+    border: solid #fff;
+    color: #000000;
+    border-radius: 5px;
+}
+.primary-text {
+    color: #ffca08;
+}
+.primary-hover-text{
+    color: #ffca08;
+}
+.primary-hover-text:hover{
+    color: #000000;
+    transition: all .3s ease-in-out;
+}
+.primary-bg {
+    background: #ffca08;
+    border: solid #ffca08;
+    border-width: 1px;
+    color: #fff;
+    transition: .4s;
+}
+.primary-bg:hover {
+    background: #000000;
+    border: solid #000000 1px;
+    color: #fff;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+/* header top */
+@media only screen and (max-width: 778px) {
+    section.header-top{
+        display: none;
+    }
+}
+section.header-top {
+    background: #f3f3f3;
+}
+samp.fa.fa-bolt.fa-fw.fa-2x {
+    font-size: 20px;
+    color: #f8bc07;
+}
+p.header-top-offer {
+    background: #333333;
+    color: #fff;
+}
+.btn.header-top-btn {
+    padding: 7px 20px;
+}
+.Order-btn {
+    background: #2bb673;
+    color: #fff;
+}
+.Order-btn:hover{
+    background: #000000 !important;
+    color: #fff !important;
+}
+.Seling-btn{
+    background: #00adef;
+    color: #fff;
+}
+.Seling-btn:hover{
+    background: #000000 !important;
+    color: #fff !important;
+}
+.help-btn{
+    background: #333333;
+    color: #fff;
+}
+.help-btn:hover{
+    background: #000000 !important;
+    color: #fff !important;
+}
+.login-btn{
+    background: #ef4200;
+    color: #fff;
+}
+.login-btn:hover{
+    background: #000000 !important;
+    color: #fff !important;
+}
+/* header manin */
+.logo img {
+   max-width: 130px;
+}
+/* header responsive */
+@media only screen and (max-width: 988px) {
+    section.main-header {
+        display: none;
+    }
+    .header-mobile{
+        visibility: visible;
+      }
+}
+.header-mobile{
+    display: none;
+  }
+  @media only screen and (max-width: 1000px) {
+    .header-mobile{
+        display: block;
+      }
+  }
+  .mobile-menu-logo.navbar-brand {
+    width: 15%;
+}
+/* products category */
+.products-category-title {
+    text-align: center;
+}
+
+p.products-category-joggers {
+    height: 300px;
+    width: auto;
+    text-align: center;
+    background-image: url(./img/df3bca60a5abf11ae5441dac1ef16c2a.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+p.products-category-joggers a {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    font-weight: 600;
+}
+p.products-category-activewear {
+    height: 300px;
+    width: auto;
+    text-align: center;
+    background-image: url(./img/b1bd24d15cb6cfb756a407a5d799fadc.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+p.products-category-activewear a {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    font-weight: 600;
+}
+p.products-category-chinos {
+    height: 300px;
+    width: auto;
+    text-align: center;
+    background-image: url(./img/cf598bd8f37d10c0be923bfa9ac46bc0.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+p.products-category-chinos a {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    font-weight: 600;
+}
+p.products-category-shirts{
+    height: 300px;
+    width: auto;
+    text-align: center;
+    background-image: url(./img/a4d6a05408fdd567b19bbcf7b7075c00.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+p.products-category-shirts a {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    font-weight: 600;
+}
+/* prodacts section */
+.products-grid-title {
+    text-align: center;
+}
+/* Best Selling section */
+.Best-Selling-section1{
+    background: #f7f7f7;
+  }
+  .Best-Selling-section2{
+    background: #ffffff;
+  }
+  .Best-Selling-section3{
+    background: #f7f7f7;
+  }
+  .product-card{
+    transition: all .3s ease-in-out;
+  }
+  .product-card:hover{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    
+
+  }
+  .product-img{
+    position: relative;
+  }
+  .product-img-1{
+    position: relative;
+  }
+  .product-img-2 {
+    position: absolute;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+    top: 0;
+    left: 0;
+}
+.product-card:hover .product-img-2{
+    opacity: 1;
+}
+  /* ul product buy itm */
+  ul.product-buy-itm{}
+  ul.product-buy-itm li{}
+  .Quick-View{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffca08;
+  }
+  .Quick-View:hover{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+  }
+  .Add-to-wishlist {
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffca08;
+    padding: 0 15%;
+}
+  .Add-to-wishlist:hover{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    padding: 0 15%;
+}
+  
+.Add-to-card{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffca08;
+ }
+.Add-to-card:hover{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+ }
+ ul.product-buy-itm {
+    padding: 10px 0;
+    background: rgba(255, 255, 255, 0.658);
+    position: absolute;
+    width: 40px;
+    bottom: 50px;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+    border-radius: 5px;
+}
+ul.product-buy-itm li {
+    list-style: none;
+    padding: 10px 0;
+}
+.product-card:hover ul.product-buy-itm{
+    opacity: 1;
+    bottom: 0;
+    
+}
+.Buy-Now-button {
+    text-decoration: none;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 13px;
+}
+span.price {
+    display: block;
+}
+.Price-amount bdi{
+
+}
+.Price-amount ins{
+
+}
+span.Price-currencySymbol {
+    font-size: 25px;
+    font-weight: 900;
+}
+.Price-amount-hold {
+    font-size: 15px;
+    text-decoration: line-through;
+}
+span.Price-currencySymbol {
+    font-size: 17px;
+    font-weight: 900;
+    color: #ffca08;
+}
+.badge {
+    display: inline-block;
+    padding: 0.35em 0.65em;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    position: absolute;
+    right: 0;
+}
+/* read-more-btn */
+.read-more-btn {
+    margin: auto;
+    width: auto;
+}
+/* products category-2 */
+.products-category-2-title {
+    text-align: center;
+}
+
+p.products-category-2-joggers {
+    height: 300px;
+    width: auto;
+    text-align: center;
+    background-image: url(./img/df3bca60a5abf11ae5441dac1ef16c2a.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+p.products-category-2-joggers a {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    font-weight: 600;
+}
+p.products-category-2-activewear {
+    height: 300px;
+    width: auto;
+    text-align: center;
+    background-image: url(./img/b1bd24d15cb6cfb756a407a5d799fadc.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+p.products-category-2-activewear a {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    font-weight: 600;
+}
+p.products-category-2-chinos {
+    height: 300px;
+    width: auto;
+    text-align: center;
+    background-image: url(./img/cf598bd8f37d10c0be923bfa9ac46bc0.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+p.products-category-2-chinos a {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    font-weight: 600;
+}
+p.products-category-2-shirts{
+    height: 300px;
+    width: auto;
+    text-align: center;
+    background-image: url(./img/a4d6a05408fdd567b19bbcf7b7075c00.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+p.products-category-2-shirts a {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    font-weight: 600;
+}
+p.products-category-2-joggers a {
+    background: #000;
+}
+p.products-category-2-joggers a:hover {
+    background: rgb(255, 255, 255);
+}
+p.products-category-2-activewear a {
+    background: #000;
+}
+p.products-category-2-activewear a:hover {
+    background: rgb(255, 255, 255);
+}
+p.products-category-2-chinos a {
+    background: #000;
+}
+p.products-category-2-chinos a:hover {
+    background: rgb(255, 255, 255);
+}
+p.products-category-2-shirts a {
+    background: #000;
+}
+p.products-category-2-shirts a:hover {
+    background: rgb(255, 255, 255);
+}
+/* feature */
+.feature-icon {
+    font-size: 27px;
+}
+.feature-text{}
+.feature-text strong {
+    font-size: 13px;
+}
+.feature-text p {
+    font-size: 13px;
+}
+.feature-content {
+    border: solid #ffca08 2px;
+    border-radius: 5px;
+    align-items: center;
+}
+.feature-content-itm-border {
+    border-right: solid #ffca08 2px;
+    padding: 0 10px;
+}
+@media only screen and (max-width: 988px) {
+    .feature-content-itm-border {
+        border-right: none;
+        padding: 0 10px;
+    }
+  }
+
+/* footer-top */
+.footer-top{
+    background: #f5f5f5;
+}
+p.footer-top-itm-2 {
+    line-height: 21px;
+}
+.footer-img {
+    width: 120px;
+}
+p.footer-top-itm-1 {
+    font-size: 15px;
+}
+ul.footer-menu-1{}
+ul.footer-menu-1 li {
+    padding: 4px;
+    transition: all .3s ease-in-out;
+}
+ul.footer-menu-1 li:hover {
+    background: #ffca08;
+    color: #fff;
+    border-radius: 5px;
+}
+ul.footer-menu-1 li:hover a{
+    color: #fff;
+}
+li.footer-menu-list {
+    list-style: none;
+}
+.footer-menu-1 li a{
+    text-decoration: none;
+    color: #000000;
+    transition: all .3s ease-in-out;
+}
+p.footer-top-itm-1 {
+    font-size: 15px;
+    font-weight: bold;
+}
+ul.sociyal-link-itm {
+    display: flex;
+    padding-top: 20px;
+}
+li.sociyal-link-list {
+    margin: 0 10px;
+    list-style: none;
+}
+li.sociyal-link-list a {
+    text-decoration: none;
+    color: #000000;
+}
+li.sociyal-link-list a:hover{
+    text-decoration: none;
+    color: #ffca08;
+}
+/* footer-bottom  */
+a.copyright {
+    color: #ffca08;
+    text-decoration: none;
+}
